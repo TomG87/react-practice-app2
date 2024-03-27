@@ -7,7 +7,7 @@ import "./App.css";
 export default function App() {
   const newItem = data.map((item) => <Card key={item.id} item={item} />);
   return (
-    <div>
+    <div className="app">
       <Navbar />
       {newItem}
     </div>

@@ -1,9 +1,22 @@
 * {
   box-sizing: border-box;
 }
-
+.app{
+  font-family: Arial, sans-serif;
+}
 .nav {
+  display:flex;
   justify-content:center;
+  align-items:center;
+  background-color:#F55A5A;
+  color:#FFFFFF;
+}
+.nav--icon{
+  color:#FFFFFF;
+  font-size: 30px;
+}
+.icon{
+  color:#F55A5A;
 }
 .card--location{
   display:flex;
