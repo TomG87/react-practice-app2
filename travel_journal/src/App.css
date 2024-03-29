@@ -23,3 +23,9 @@
   justify-content:space-between;
 }
 
+.image{
+  border-radius:10px;
+  max-width: 200px;
+  width: auto;
+  height: auto;
+}

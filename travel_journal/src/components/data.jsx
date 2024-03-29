@@ -21,4 +21,16 @@ export default [
     imageUrl:
       "https://a.cdn-hotels.com/gdcs/production144/d547/b9cfd8e5-212f-4945-8010-b76f326ccd18.jpg?impolicy=fcrop&w=800&h=533&q=medium",
   },
+  {
+    title: "Santorini",
+    location: "Greece",
+    googleMapsUrl:
+      "https://www.google.com/maps/place/Fira+847+00,+Greece/@36.4203258,25.4218492,15z/data=!3m1!4b1!4m6!3m5!1s0x1499cdce05e3bce9:0x9f4c192bbefa1db!8m2!3d36.4166485!4d25.432447!16zL20vMDd3enF6?entry=ttu",
+    startDate: "20 May, 2023",
+    endDate: "1 June, 2023",
+    description:
+      "Santorini Island is famous for its breathtaking sunset views and for a good reason. The island's whitewashed buildings perched on the cliffside, with their blue domes, are iconic.",
+    imageUrl:
+      "https://thetourguy.com/wp-content/uploads/2021/08/Where-to-Stay-Santorini-1440-x-675-900x420.jpg",
+  },
 ];
