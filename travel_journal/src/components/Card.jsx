@@ -11,6 +11,9 @@ export default function Card(props) {
         </span>
         <a href={props.item.googleMapsUrl}>View on Google Maps</a>
       </div>
+      <br></br>
+      <div className="card--title">{props.item.title}</div>
+      <br></br>
       <div className="card--dates">
         <span>{props.item.startDate}-</span>
         <span>{props.item.endDate}</span>
@@ -21,6 +24,7 @@ export default function Card(props) {
       <div className="image">
         <img src={props.item.imageUrl} />
       </div>
+      <div className="border border-success p-2 border-opacity-10"></div>
     </div>
   );
 }

@@ -5,7 +5,7 @@ export default function Navbar() {
   return (
     <div className="nav">
       <BiWorld className="nav--icon" />
-      <h1>my travel journal</h1>;
+      <h1>my travel journal</h1>
     </div>
   );
 }

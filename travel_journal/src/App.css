@@ -3,6 +3,7 @@
 }
 .app{
   font-family: Arial, sans-serif;
+
 }
 .nav {
   display:flex;
@@ -20,12 +21,20 @@
 }
 .card--location{
   display:flex;
-  justify-content:space-between;
+  gap: 10px;
+}
+.card--dates{
+  font-weight:bold;
 }
 
 .image{
-  border-radius:10px;
-  max-width: 200px;
-  width: auto;
-  height: auto;
+  width: 200px;
+  height: auto; 
+  margin: 10px; 
+  rounded mx-auto d-block
+}
+
+.card--title{
+  font-size: 1.5rem;
+  font-weight: bold;
 }
