@@ -3,6 +3,7 @@
 }
 .app{
   font-family: Arial, sans-serif;
+  padding-inline: 50px;
 
 }
 .nav {
@@ -26,12 +27,14 @@
 .card--dates{
   font-weight:bold;
 }
+x.card--description{
+  overflow-wrap: break-word;
+}
 
 .image{
   width: 200px;
-  height: auto; 
-  margin: 10px; 
-  rounded mx-auto d-block
+  height: auto;
+  margin-right: 20px; 
 }
 
 .card--title{

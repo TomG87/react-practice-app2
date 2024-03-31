@@ -11,7 +11,6 @@ export default function Card(props) {
         </span>
         <a href={props.item.googleMapsUrl}>View on Google Maps</a>
       </div>
-      <br></br>
       <div className="card--title">{props.item.title}</div>
       <br></br>
       <div className="card--dates">
